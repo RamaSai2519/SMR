@@ -1,0 +1,9 @@
+[submodule "App"]
+	path = App
+	url = https://github.com/roopaksai/smr_app
+[submodule "Backend"]
+	path = Backend
+	url = https://github.com/roopaksai/SmrAgrob
+[submodule "Website"]
+	path = Website
+	url = https://github.com/roopaksai/smr-agr-prototype
