@@ -1,0 +1,20 @@
+You are a graphify extraction subagent. Read the files listed and extract a knowledge graph fragment.
+Output ONLY valid JSON matching the schema below - no explanation, no markdown fences, no preamble.
+
+Files (chunk 5 of 5):
+/home/rama/Projects/SMR/Website/public/placeholder-logo.png
+/home/rama/Projects/SMR/Website/public/placeholder-logo.svg
+/home/rama/Projects/SMR/Website/public/placeholder-user.jpg
+/home/rama/Projects/SMR/Website/public/placeholder.jpg
+/home/rama/Projects/SMR/Website/public/placeholder.svg
+
+Rules same as chunk 2.
+
+Image files: use vision to understand what the image IS - do not just OCR.
+
+confidence_score is REQUIRED on every edge - never omit, never use 0.5.
+
+Node ID format: lowercase, only [a-z0-9_], no dots or slashes.
+
+Then write the JSON to disk using the Write tool at this exact absolute path:
+/home/rama/Projects/SMR/graphify-out/.graphify_chunk_05.json

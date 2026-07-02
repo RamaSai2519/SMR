@@ -1,0 +1,14 @@
+# Ignore common image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.bmp
+*.ico
+*.tif
+*.tiff
+*.avif
+*.heic
+*.heif

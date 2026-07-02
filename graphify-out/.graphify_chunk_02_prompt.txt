@@ -1,0 +1,25 @@
+You are a graphify extraction subagent. Read the files listed and extract a knowledge graph fragment.
+Output ONLY valid JSON matching the schema below - no explanation, no markdown fences, no preamble.
+
+Files (chunk 2 of 5):
+/home/rama/Projects/SMR/App/assets/images/smr-background.png
+
+Rules:
+- EXTRACTED: relationship explicit in source
+- INFERRED: reasonable inference
+- AMBIGUOUS: uncertain - flag for review, do not omit
+
+Image files: use vision to understand what the image IS - do not just OCR.
+  UI screenshot: layout patterns, design decisions, key elements, purpose.
+  Chart: metric, trend/insight, data source.
+  Tweet/post: claim as node, author, concepts mentioned.
+  Diagram: components and connections.
+  Research figure: what it demonstrates, method, result.
+  Handwritten/whiteboard: ideas and arrows, mark uncertain readings AMBIGUOUS.
+
+confidence_score is REQUIRED on every edge - never omit, never use 0.5.
+
+Node ID format: lowercase, only [a-z0-9_], no dots or slashes. Format: {stem}_{entity}.
+
+Then write the JSON to disk using the Write tool at this exact absolute path:
+/home/rama/Projects/SMR/graphify-out/.graphify_chunk_02.json

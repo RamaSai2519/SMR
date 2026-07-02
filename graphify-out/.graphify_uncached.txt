@@ -1,0 +1,10 @@
+/home/rama/Projects/SMR/.github/copilot-instructions.md
+/home/rama/Projects/SMR/App/AGENTS.md
+/home/rama/Projects/SMR/App/App_README.md
+/home/rama/Projects/SMR/App/README.md
+/home/rama/Projects/SMR/Backend/amplify/README.md
+/home/rama/Projects/SMR/Backend/amplify/backend/function/master/src/templates/email_verification.html
+/home/rama/Projects/SMR/Backend/amplify/hooks/README.md
+/home/rama/Projects/SMR/Website/BUILD_COMPLETE.md
+/home/rama/Projects/SMR/Website/SuperAdminPage_desc.md
+/home/rama/Projects/SMR/Website/test.txt
